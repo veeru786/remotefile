@@ -5,4 +5,4 @@ def helloworld = fileLoader.fromGit('examples/fileLoader/helloworld',
 
 	stage 'Run method from the loaded file'
 	helloworld.printHello();
-	return this;
+	return this ;
